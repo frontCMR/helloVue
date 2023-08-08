@@ -15,7 +15,7 @@ onMounted(async () => {
   await service.fetchAllPosts();
 });
 </script>
-<style lang="css" scoped>
+<style lang="scss" scoped>
 .postList {
   width: 100%;
   display: flex;
@@ -23,5 +23,6 @@ onMounted(async () => {
   justify-content: center;
   gap: 20px;
   padding: 20px 0px;
+  color: $blue;
 }
 </style>
