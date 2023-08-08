@@ -1,9 +1,9 @@
 <template>
-  <LayoutServices />
+  <router-view/>
 </template>
 
 <script lang="ts" setup>
-import LayoutServices from "./servicesProject/LayoutServices.vue";
+// import LayoutServices from "./servicesProject/LayoutServices.vue";
 </script>
 
 <style>

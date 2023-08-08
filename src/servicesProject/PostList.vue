@@ -1,6 +1,9 @@
 <template lang="">
   <section class="postList">
-    <PostItem v-for="post in posts" :key="post.id" :post="post" />
+    <h2>Post List</h2>
+    <ul>
+      <PostItem v-for="post in posts" :key="post.id" :post="post" />
+    </ul>
   </section>
 </template>
 <script lang="ts" setup>
@@ -17,12 +20,12 @@ onMounted(async () => {
 </script>
 <style lang="scss" scoped>
 .postList {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px 0px;
-  color: $blue;
+  max-width: 86rem;
+  margin: 0px auto;
+  
+  ul{
+    list-style: none;
+  }
+
 }
 </style>
