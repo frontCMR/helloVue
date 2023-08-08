@@ -1,9 +1,9 @@
 <template>
-  <PostList />
+  <LayoutServices />
 </template>
 
 <script lang="ts" setup>
-  import PostList from './components/PostList.vue'
+import LayoutServices from "./servicesProject/LayoutServices.vue";
 </script>
 
 <style>
